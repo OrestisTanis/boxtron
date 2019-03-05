@@ -10,6 +10,7 @@ Green boxes: 5/10pts, White Box: +3sec, Yellow Box: -3sec, Pink Box: You freeze 
 
 ***Credits***
 
-Main menu song: Cosmic Sand - 9h00, In-game song: Carpenter Brut - Hang 'Em All.
+Main menu song: Cosmic Sand - 9h00, 
+In-game song: Carpenter Brut - Hang 'Em All.
 
 You can play it here: https://orestistanis.github.io/boxtron/
