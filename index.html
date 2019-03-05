@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Orestis Tanis - BoxTron </title>
+
+
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="TemplateData/style.css">
+
+  <!--Font Links-->
+  <!--Sarina-->
+  <link href="https://fonts.googleapis.com/css?family=Sarina" rel="stylesheet">  
+
+
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+    </script>
+    
+  </head>
+  <body>
+
+
+
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1280px; height: 720px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title" style="color: white"> BoxTron </div>
+        <br>
+        <div class="instructions">
+         <h2> Created by Orestis Tanis</h2>    
+      <h3> <strong>Controls:</strong> Move - WASD, Aim - Mouse, Shoot - RMB <br>
+           <strong>Instructions:</strong> Get as many points as you can by shooting green boxes before timer ends. <br>
+           <strong>Green boxes:</strong> 5/10pts, <strong>White Box:</strong> +3sec, <strong>Yellow Box:</strong> -3sec, <strong>Pink Box: </strong> You freeze for a brief period of time! </h3>
+          <h4> NOTE: "Quit" and Quit To Desktop" buttons work only in PC builds. <br>
+           <u>Credits</u> <br>
+            Main menu song: Cosmic Sand - 9h00, In-game song: Carpenter Brut - Hang 'Em All. </h4>  
+          </div>
+      </div>
+    </div>
+
+     
+  </body>
+</html>
